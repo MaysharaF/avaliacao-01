@@ -49,7 +49,7 @@ describe("Filter", () => {
     test("If the invoice amount is between 2500 and 3000 and 2m", () => {
       const invoices = [invoice1, invoice2, invoice3];
 
-      const filteredInvoices = [invoice1, invoice2];
+      const filteredInvoices = [];
 
       var result = invoicesFilter(invoices);
 
